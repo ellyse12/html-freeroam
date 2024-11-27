@@ -1,16 +1,27 @@
 body {
-    background-color: powderblue;
+  background-color: powderblue;
 }
 
 h1 {
-    color:blue;
-    font-family: verdana;
-    font-size:300%;
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
 }
 p {
-    color:red;
-    font-family: courier;
-    font-size:160%;
-    border:2px solid black;
-    margin:50px;
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+  border: 2px solid black;
+  margin: 50px;
+}
+div {
+  background-color: aliceblue;
+  width: 300px;
+  margin: auto;
+  float: left;
+  overflow: auto;
+  display: inline-block;
+}
+.inline {
+  background-color: yellowgreen;
 }
